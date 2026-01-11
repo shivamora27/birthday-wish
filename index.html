@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Beautiful Wife! 🎂</title>
+    <!-- Prevent favicon 404 error -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎂</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Hidden audio element for birthday song -->
+    <audio id="birthday-audio" preload="auto">
+        <source src="happy-birthday.mp3" type="audio/mpeg">
+        <source src="happy-birthday.ogg" type="audio/ogg">
+    </audio>
+</head>
+<body>
+    <!-- Floating balloons -->
+    <div class="balloons">
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+    </div>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Welcome section -->
+        <section class="welcome-section">
+            <h1 class="main-title">Happy Birthday!</h1>
+            <h2 class="sub-title">To My Beautiful Wife 💕</h2>
+            <p class="love-message">
+                Today is your special day, and I want to celebrate the incredible woman you are. 
+                From friends to best friends, to soulmates, and now as my wife - you make every day magical!
+            </p>
+            <button class="start-button" onclick="scrollToGallery()">See Our Memories 📸</button>
+        </section>
+
+        <!-- Birthday cake animation -->
+        <div class="cake-container">
+            <!-- Cutting knife animation -->
+            <div class="knife" id="cutting-knife">
+                <div class="knife-blade"></div>
+                <div class="knife-handle"></div>
+            </div>
+            
+            <div class="cake" id="birthday-cake">
+                <div class="candles" id="candles">
+                    <div class="candle"></div>
+                    <div class="candle"></div>
+                    <div class="candle"></div>
+                </div>
+                <div class="cake-layer layer1">
+                    <div class="cake-slice slice-left"></div>
+                    <div class="cake-slice slice-right"></div>
+                </div>
+                <div class="cake-layer layer2">
+                    <div class="cake-slice slice-left"></div>
+                    <div class="cake-slice slice-right"></div>
+                </div>
+                <div class="cake-layer layer3">
+                    <div class="cake-slice slice-left"></div>
+                    <div class="cake-slice slice-right"></div>
+                </div>
+            </div>
+            <button class="cut-cake-btn" id="cut-cake-btn" onclick="cutTheCake()">
+                🎂 Cut the Cake! 🔪
+            </button>
+        </div>
+        
+        <!-- Fireworks container -->
+        <div class="fireworks-container" id="fireworks-container"></div>
+
+        <!-- Photo gallery section -->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Our Beautiful Memories Together 🌟</h2>
+            <div class="photo-grid">
+                <!-- Photos will be displayed here -->
+                <div class="photo-card">
+                    <img src="photos/photo1.jpeg" alt="Memory 1" onerror="this.src='https://via.placeholder.com/800x600/ff69b4/ffffff?text=Photo+1'">
+                    <p class="photo-caption">When we were good friends</p>
+                </div>
+                <div class="photo-card">
+                    <img src="photos/photo2.jpeg" alt="Memory 2" style="object-position: center top;" onerror="this.src='https://via.placeholder.com/800x600/ff1493/ffffff?text=Photo+2'">
+                    <p class="photo-caption">Our engagement day</p>
+                </div>
+                <div class="photo-card">
+                    <img src="photos/photo3.jpeg" alt="Memory 3" style="object-position: center top;" onerror="this.src='https://via.placeholder.com/800x600/ff69b4/ffffff?text=Photo+3'">
+                    <p class="photo-caption">Best friends forever</p>
+                </div>
+                <div class="photo-card">
+                    <img src="photos/photo4.jpeg" alt="Memory 4" onerror="this.src='https://via.placeholder.com/800x600/ff1493/ffffff?text=Photo+4'">
+                    <p class="photo-caption">Long distance but stronger</p>
+                </div>
+                <div class="photo-card">
+                    <img src="photos/photo5.jpeg" alt="Memory 5" onerror="this.src='https://via.placeholder.com/800x600/ff69b4/ffffff?text=Photo+5'">
+                    <p class="photo-caption">Our wedding day! 💍</p>
+                </div>
+                <div class="photo-card">
+                    <img src="photos/photo6.jpeg" alt="Memory 6" style="object-position: center top;" onerror="this.src='https://via.placeholder.com/800x600/ff1493/ffffff?text=Photo+6'">
+                    <p class="photo-caption">My beautiful wife ❤️</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Love letter section -->
+        <section class="letter-section">
+            <div class="letter">
+                <h3>A Special Message For You 💌</h3>
+                <p>
+                    My Dearest Wife,<br><br>
+                    
+                    Happy Birthday to the most incredible woman in my life! Our journey together has been nothing short of magical - 
+                    from the day we became friends, to becoming best friends who understood each other's hearts, 
+                    to the moment we realized we were meant to be together.
+                    <br><br>
+                    
+                    Those 2.6 years of long distance tested us, but they only proved how strong our love is. 
+                    Every video call, every message, every "I miss you" brought us closer. And now, just last month, 
+                    we began the greatest adventure of all - as husband and wife!
+                    <br><br>
+                    
+                    You are my best friend, my partner, my confidante, and now my wife. Your smile still makes my heart skip a beat, 
+                    your laughter is the sweetest melody, and your love is my greatest blessing. 
+                    Thank you for choosing me, for believing in us, and for making me the happiest person alive.
+                    <br><br>
+                    
+                    Here's to celebrating YOU today, and to a lifetime of birthdays together, creating beautiful memories, 
+                    sharing dreams, and growing old hand in hand. I love you more than words could ever express!
+                    <br><br>
+                    
+                    Happy Birthday, my beautiful wife! 🎂🎉💖
+                    <br><br>
+                    
+                    Forever and Always Yours,<br>
+                    Your Husband ❤️
+                </p>
+            </div>
+        </section>
+
+        <!-- Wishes section -->
+        <section class="wishes-section">
+            <h2 class="section-title">My Birthday Wishes For You 🌠</h2>
+            <div class="wishes-container">
+                <div class="wish-card">
+                    <div class="wish-icon">✨</div>
+                    <p>May all your dreams come true this year</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">🌟</div>
+                    <p>May you always smile as bright as you do now</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">💝</div>
+                    <p>May our marriage be filled with endless love and joy</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">🎊</div>
+                    <p>May happiness follow you wherever you go</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final message -->
+        <section class="final-section">
+            <div class="hearts">
+                <span class="heart">❤️</span>
+                <span class="heart">💕</span>
+                <span class="heart">💖</span>
+                <span class="heart">💗</span>
+                <span class="heart">💝</span>
+            </div>
+            <h2 class="final-message">I Love You More Than Anything! 💞</h2>
+            <p class="signature">- Your Husband, Forever and Always ❤️</p>
+        </section>
+    </div>
+
+    <!-- Confetti canvas -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
